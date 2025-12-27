@@ -9,19 +9,19 @@ export default {
      *
      * 如果提示找不到设备，请打开调试模式获取设备真实的 name、miotDID 或 mac 地址填入
      */
-    did: 'Xiaomi 智能音箱 Pro',
+    did: '小爱音箱Pro-来福',
     /**
      * 小米 ID（一串数字）
      *
      * 注意：不是手机号或邮箱，请在小米账号「个人信息」-「小米 ID」查看
      */
-    userId: '1234567',
+    userId: '10389579',
     /**
      * 小米账号登录密码
      *
      * 如果提示登录失败，请使用 passToken 登录
      */
-    password: 'xxxxx',
+    password: 'adminltdn123321',
     /**
      * （可选）小米账号 passToken
      *
@@ -40,15 +40,15 @@ export default {
      * - ❌ https://api.openai.com/v1/（最后多了一个 /
      * - ❌ https://api.openai.com/v1/chat/completions（不需要加 /chat/completions）
      */
-    baseURL: 'https://api.openai.com/v1',
+    baseURL: 'https://ark.cn-beijing.volces.com/api/v3',
     /**
      * API 密钥
      */
-    apiKey: 'sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    apiKey: 'c69a8ed2-b1a9-46d3-91ae-7b5beffc3204',
     /**
      * 模型名称
      */
-    model: 'gpt-4.1-mini',
+    model: 'doubao-1-5-pro-32k-250115',
   },
   prompt: {
     /**
